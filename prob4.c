@@ -2,7 +2,7 @@
 #include <string.h>
 
 void inversa(char str[], int size){
-    if (size!=0){
+    if (size!=EOF){
         printf("%c",str[size]);
         inversa(str,size-1);
     }
